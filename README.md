@@ -1,4 +1,4 @@
-# swit-study-with
+# swit(studyWith)
 
 #### 3.26 - 주제 선정 및 메인페이지 디자인
 
