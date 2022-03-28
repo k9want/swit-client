@@ -7,3 +7,7 @@
 주제 이유 : 실제로 제가 함께 공부할 수 있는 스터디 팀원을 구하기 힘든 적이 많아서 직접 만들어보고 싶었다.
 
 #### 3.27 - 메인페이지 HTML 마크업 (반응형 미구현)
+
+#### 3.28 - API 명세서 작성
+
+https://docs.google.com/spreadsheets/d/1ThlDejHJ3mAqkxTBd_oJb5AuMEQ4twOKTJ5liiDPE-0/edit?usp=sharing
