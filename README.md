@@ -13,3 +13,5 @@
 https://docs.google.com/spreadsheets/d/1ThlDejHJ3mAqkxTBd_oJb5AuMEQ4twOKTJ5liiDPE-0/edit?usp=sharing
 
 #### 3.30 - RESET CSS 코드 작성 및 부트스트랩, font 셋팅
+
+#### 3.31 - 모바일 디자인 추가
