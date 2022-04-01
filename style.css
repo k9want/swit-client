@@ -47,6 +47,110 @@ p {
   letter-spacing: -0.01em;
 }
 
+/* CSS 시작!!! */
+/* 첫번째 로고 쪽*/
+.header-line {
+  display: flex;
+  padding: 24px 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 img {
+  display: block;
+  width: auto;
+  height: 24px;
+}
+
+.header-btn {
+  display: flex;
+}
+
+.header-btn button {
+  margin-left: 1.5rem;
+}
+
+/* 스터디 모집하기, 팀원 찾는 글만 보기  */
+.non-show-btn {
+  display: none;
+}
+
+/* + 최신, 인기, 로그인까지 */
+.non-border-btn {
+  border: none;
+  background-color: #fff;
+  font-size: 24px;
+  color: #28292d;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+}
+
+/* 다른 좋은 방법이 있는것으로 알고 있기때문에 추후 수정할 예정 22.04.01 */
+nav h1 {
+  display: none;
+}
+
+/* ---------------------------------- */
+/* main */
+.main {
+  padding: 24px 0 18px 0;
+}
+
+.section {
+  padding: 8px 0 12px 0;
+}
+
+.section-btn {
+  padding: 4px 20px;
+  margin-right: 1rem;
+  background: #fcfbfb;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+/*filter*/
+
+/* 팀원 찾는 글만 보기 */
+.filter-team {
+  margin: 0 0 0 auto;
+}
+
+/* 게시글  */
+.article {
+  display: block;
+  height: 250px;
+  padding: 24px 40px 20px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.article h4 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.article-info-group img {
+  display: block;
+  width: auto;
+  height: 18px;
+}
+
+.article-info-group p {
+  display: inline;
+  font-size: 18px;
+  line-height: 1.33333333;
+  letter-spacing: -0.02em;
+}
+
 /* 768px (Desktop) 넣을지 말지 나중에 결정하기 (3.30)
 @media screen and (min-width: 768px) {
   p {
@@ -60,5 +164,24 @@ p {
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 960px !important;
+  }
+
+  .header-line {
+    padding: 24px 32px;
+  }
+
+  h1 img {
+    display: block;
+    width: 150px;
+    height: auto;
+  }
+
+  /* 혹시라도 col-md-2가 이상할때
+  .article{
+    width : 20.833333325%;
+  } */
+
+  .non-show-btn {
+    display: block;
   }
 }

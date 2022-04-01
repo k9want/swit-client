@@ -1,92 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SWIT-StudyWith</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="grid.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header>
-    <h1>
-      <a href="#">
-        <img src="#" alt="SWIT">
-      </a>
-    </h1>
-    <nav>
-      <h1>SWIT</h1>
-      <a>
-        <button>스터디 모집하기</button>
-      </a>
-      <a>
-        <button>로그인</button>
-      </a>
-    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 header-line">
+          <h1 class="logo">
+            <a href="#">
+              <img src="./assets/logo.png" alt="SWIT">
+            </a>
+          </h1>
+          <nav>
+            <h1>SWIT</h1>
+            <div class="header-btn">
+              <a>
+                <button class="non-border-btn non-show-btn">스터디 모집하기</button>
+              </a>
+              <a>
+                <button class="non-border-btn">로그인</button>
+              </a>
+            </div>
+
+          </nav>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <hr>
-  <section>
-    <h1>SWIT과
-    <br />함께 공부할 
-    <br />스터디 팀원을 찾아봐요</h1>
-    <img src="" alt="swit 이미지">
-    <p>SWIT은 Study With의 약자입니다.</p>
-  </section>
 
-  <hr>
-  <section>
-    <div>
-      <button>
-        개발
-      </button>
-      <button>
-        취업
-      </button>
-      <button>
-        면접
-      </button>
-      <button>
-        공부
-      </button>
-    </div>
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
 
-    <div>
-      <button>
-        <img src="" alt="최신이미지">
-        최신
-      </button>
-      <button>
-        <img src="" alt="인기이미지">
-        인기
-      </button>
-      <button>
-        <img src="" alt="체크이미지">
-        팀원 찾는 글만 보기
-      </button>
-    </div>
-  </section>
-  <hr>
-  <section class = "study section">
-    <div>
-      <a href = "#">
-        <h4>같이 개발공부할 팀원 구합니다.</h4>
-        <div>
-          <img src="" alt="좋아요">
-          <p>좋아요 수</p>
-          <img src="" alt="조회수">
-          <p>조회 수</p>
-          <img src="" alt="댓글">
-          <p>댓글 수</p>
+          <h1>SWIT과
+            <br />함께 공부할
+            <br />스터디 팀원을 찾아봐요
+          </h1>
+          <img src="" alt="swit 이미지">
+          <p>SWIT은 Study With의 약자입니다.</p>
         </div>
-      </a>
+      </div>
+    </div>
     </div>
   </section>
 
 
-  
+  <section class="btn-group section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <button class="section-btn">
+            개발
+          </button>
+          <button class="section-btn">
+            취업
+          </button>
+          <button class="section-btn">
+            면접
+          </button>
+          <button class="section-btn">
+            공부
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="filter section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <button class="non-border-btn">
+            최신
+          </button>
+          <button class="non-border-btn">
+            인기
+          </button>
+        </div>
+
+        <button class="non-border-btn non-show-btn filter-team">
+          팀원 찾는 글만 보기
+      </div>
+      </button>
+    </div>
+    </div>
+  </section>
+
+
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <a href="#" class="article">
+            <h4>같이 개발공부할 팀원 구합니다. JAVA, SPRING, NodeJs 백엔드 서버쪽 공부하실 분 찾습니다.</h4>
+            <div class="article-info-group">
+              <div class="article-info">
+                <img src="./assets/like.png" alt="좋아요">
+                <p>2</p>
+              </div>
+              <div class="article-info">
+                <img src="./assets/eye.png" alt="조회수">
+                <p>4</p>
+              </div>
+              <div class="article-info">
+                <img src="./assets/comment.png" alt="댓글">
+                <p>0</p>
+              </div>
+
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
 </body>
+
 </html>
