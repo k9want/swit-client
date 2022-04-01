@@ -79,7 +79,7 @@ h1 img {
 .non-border-btn {
   border: none;
   background-color: #fff;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #28292d;
   letter-spacing: -0.01em;
   line-height: 1.5;
@@ -100,9 +100,15 @@ nav h1 {
   padding: 8px 0 12px 0;
 }
 
-.section-btn {
-  padding: 4px 20px;
-  margin-right: 1rem;
+.category-btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.category-btn {
+  padding: 0.25rem 1rem;
+  margin-right: 1em;
   background: #fcfbfb;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
@@ -114,10 +120,11 @@ nav h1 {
 }
 
 /*filter*/
-
-/* 팀원 찾는 글만 보기 */
-.filter-team {
-  margin: 0 0 0 auto;
+.filter-btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 /* 게시글  */
@@ -133,8 +140,8 @@ nav h1 {
 }
 
 .article h4 {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: -0.01em;
 }
 
@@ -146,7 +153,7 @@ nav h1 {
 
 .article-info-group p {
   display: inline;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1.33333333;
   letter-spacing: -0.02em;
 }
@@ -162,12 +169,12 @@ nav h1 {
 
 /*Custom Grid System - Fix container width */
 @media screen and (min-width: 1200px) {
-  .container {
+  /* .container {
     max-width: 960px !important;
-  }
+  } */
 
   .header-line {
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
   }
 
   h1 img {
