@@ -46,9 +46,13 @@ p {
   color: #28292d;
   letter-spacing: -0.01em;
 }
-
 /* CSS 시작!!! */
-/* 첫번째 로고 쪽*/
+/* 배경 */
+.background-white {
+  background-color: rgba(255, 255, 255, 0.61);
+}
+
+/* header------------------------------------------*/
 .header-line {
   display: flex;
   padding: 24px 16px;
@@ -56,10 +60,15 @@ p {
   align-items: center;
 }
 
-h1 img {
+/* 다른 좋은 방법이 있는것으로 알고 있기때문에 추후 수정할 예정 22.04.01 */
+nav h1 {
+  display: none;
+}
+
+.logo img {
   display: block;
   width: auto;
-  height: 24px;
+  height: 1.5rem;
 }
 
 .header-btn {
@@ -79,25 +88,41 @@ h1 img {
 .non-border-btn {
   border: none;
   background-color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #28292d;
   letter-spacing: -0.01em;
   line-height: 1.5;
 }
 
-/* 다른 좋은 방법이 있는것으로 알고 있기때문에 추후 수정할 예정 22.04.01 */
-nav h1 {
-  display: none;
-}
-
-/* ---------------------------------- */
-/* main */
+/* main---------------------------------------------------------- */
 .main {
-  padding: 24px 0 18px 0;
+  margin-bottom: 2.5rem;
 }
 
+.main-title {
+  margin-bottom: 1.5rem;
+}
+
+.main h1 {
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #28292d;
+  margin-bottom: 0.25rem;
+}
+
+.main p {
+  font-size: 0.8rem;
+}
+
+.main-img img {
+  display: block;
+  width: 100%;
+  height: 125%;
+}
+
+/* section-------------------------------------------------------- */
 .section {
-  padding: 8px 0 12px 0;
+  padding: 0.5rem 0 0.75rem 0;
 }
 
 .category-btn-group {
@@ -108,13 +133,13 @@ nav h1 {
 
 .category-btn {
   padding: 0.25rem 1rem;
-  margin-right: 1em;
+  margin-right: 1rem;
   background: #fcfbfb;
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   letter-spacing: -0.01em;
 }
@@ -127,12 +152,13 @@ nav h1 {
   justify-content: space-between;
 }
 
-/* 게시글  */
+/* articles-----------------------------------------------------  */
+
 .article {
   display: block;
   height: 250px;
   padding: 24px 40px 20px;
-  background-color: #fff;
+  background-color: #fcfbfb;
   border: 1px solid #c4c4c4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -169,26 +195,52 @@ nav h1 {
 
 /*Custom Grid System - Fix container width */
 @media screen and (min-width: 1200px) {
-  /* .container {
-    max-width: 960px !important;
-  } */
+  .container {
+    max-width: 1200px !important;
+  }
 
+  /* header--------------------------------------------- */
+  .logo img {
+    height: 2rem;
+  }
   .header-line {
     padding: 1.5rem 2rem;
+    margin-bottom: 2.5rem;
   }
-
-  h1 img {
-    display: block;
-    width: 150px;
-    height: auto;
-  }
-
-  /* 혹시라도 col-md-2가 이상할때
-  .article{
-    width : 20.833333325%;
-  } */
 
   .non-show-btn {
     display: block;
+  }
+
+  /* main------------------------------------------------ */
+  .main {
+    display: flex;
+    flex-wrap: nowarp;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .main-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .main h1 {
+    font-size: 2.5rem;
+  }
+
+  .main p {
+    font-size: 1rem;
+  }
+
+  /* category---------------------------------------------- */
+  .category-btn {
+    margin-right: 2rem;
+    width: 4.5rem;
+    height: 2.1rem;
+    padding: 0.25rem 0;
+    /* 혹시라도 col-md-2가 이상할때
+  .article{
+    width : 20.833333325%;
+  } */
   }
 }
