@@ -15,3 +15,5 @@ https://docs.google.com/spreadsheets/d/1ThlDejHJ3mAqkxTBd_oJb5AuMEQ4twOKTJ5liiDP
 #### 3.30 - RESET CSS 코드 작성 및 부트스트랩, font 셋팅
 
 #### 3.31 - 모바일 디자인 추가
+
+#### 4.1 CSS 코드 작성 (header-line 및 버튼들 기본적인 틀 구현, filter & category-btn-group display: flex로 변경)
