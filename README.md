@@ -17,3 +17,5 @@ https://docs.google.com/spreadsheets/d/1ThlDejHJ3mAqkxTBd_oJb5AuMEQ4twOKTJ5liiDP
 #### 3.31 - 모바일 디자인 추가
 
 #### 4.4 - 스터디모집하기 페이지 제외 디자인완료 (모바일도 X)
+
+#### 4.5 - 모든 페이지 디자인 완료(모바일도 O)
