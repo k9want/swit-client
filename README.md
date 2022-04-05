@@ -16,4 +16,4 @@ https://docs.google.com/spreadsheets/d/1ThlDejHJ3mAqkxTBd_oJb5AuMEQ4twOKTJ5liiDP
 
 #### 3.31 - 모바일 디자인 추가
 
-#### 4.1 CSS 코드 작성 (header-line 및 버튼들 기본적인 틀 구현, filter & category-btn-group display: flex로 변경)
+#### 4.4 - 스터디모집하기 페이지 제외 디자인완료 (모바일도 X)
