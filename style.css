@@ -156,10 +156,10 @@ nav h1 {
 
 .article {
   display: block;
+  height: 200px;
   position: relative;
   margin-bottom: 1.25rem;
-  height: 250px;
-  padding: 24px 40px 20px;
+  padding: 1.5rem;
   background-color: #fcfbfb;
   border: 1px solid #c4c4c4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -197,6 +197,7 @@ nav h1 {
 
 .article-info-group p {
   display: inline;
+  text-overflow: ellipsis;
   font-size: 1rem;
   line-height: 1.33333333;
   letter-spacing: -0.02em;
@@ -260,5 +261,10 @@ nav h1 {
   .article{
     width : 20.833333325%;
   } */
+  }
+
+  /* Article------------------------------------------------- */
+  .article {
+    margin-bottom: 1.75rem;
   }
 }
