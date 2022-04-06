@@ -156,6 +156,8 @@ nav h1 {
 
 .article {
   display: block;
+  position: relative;
+  margin-bottom: 1.25rem;
   height: 250px;
   padding: 24px 40px 20px;
   background-color: #fcfbfb;
@@ -171,8 +173,24 @@ nav h1 {
   letter-spacing: -0.01em;
 }
 
+.article-info-group {
+  display: flex;
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  justify-content: right;
+  align-items: center;
+}
+
+.article-info {
+  display: flex;
+  margin-right: 0.5rem;
+  align-items: center;
+}
+
 .article-info-group img {
   display: block;
+  margin-right: 0.25rem;
   width: auto;
   height: 18px;
 }
