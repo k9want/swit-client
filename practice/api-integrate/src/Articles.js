@@ -31,24 +31,24 @@ function Articles() {
   if (error) return <div>에러가 발생했습니다</div>;
   if (!articles) return null;
   return (
-    <section class="section">
-      <div class="container">
-        <div class="row">
+    <section className="section">
+      <div className="container">
+        <div className="row">
           {articles.result.map(a => (
             // <li key={article.articleId}> ({article.title})</li>
 
-            <a href="#" class="article">
+            <a href="#!" className="article" key={a.articleId}>
               <p>{a.title}</p>
-              <div class="article-info-group">
-                <div class="article-info">
+              <div className="article-info-group">
+                <div className="article-info">
                   <img src="./assets/like.png" alt="좋아요" />
                   <p>{a.likeCount}</p>
                 </div>
-                <div class="article-info">
+                <div className="article-info">
                   <img src="./assets/eye.png" alt="조회수" />
                   <p>{a.viewCount}</p>
                 </div>
-                <div class="article-info">
+                <div className="article-info">
                   <img src="./assets/comment.png" alt="댓글" />
                   <p>{a.commentCount}</p>
                 </div>
