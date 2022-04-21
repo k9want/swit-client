@@ -35,21 +35,19 @@ function App() {
       </header>
       <section>
         <div class="container">
-          <div class="row">
-            <div class="main">
-              <div class="col-12 col-md-5 main-title">
-                <h1>
-                  SWIT에서
-                  <br />
-                  같이 공부할
-                  <br />
-                  팀원을 찾아보세요
-                </h1>
-                <p>SWIT은 Study With의 약자입니다.</p>
-              </div>
-              <div class="col-12 col-md-7 main-img">
-                <img src={mainImg} alt="swit 이미지" />
-              </div>
+          <div class="row main">
+            <div class="col-12 col-md-5 col-sm-12 main-title">
+              <h1>
+                SWIT에서
+                <br />
+                같이 공부할
+                <br />
+                팀원을 찾아보세요
+              </h1>
+              <p>SWIT은 Study With의 약자입니다.</p>
+            </div>
+            <div class="col-12 col-md-7 col-sm-12 main-img">
+              <img src={mainImg} alt="swit 이미지" />
             </div>
           </div>
         </div>

@@ -96,7 +96,9 @@ nav h1 {
 
 /* main---------------------------------------------------------- */
 .main {
+  display: flex;
   margin-bottom: 2.5rem;
+  align-items: center;
 }
 
 .main-title {
@@ -105,7 +107,7 @@ nav h1 {
 
 .main h1 {
   font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 3rem;
   color: #28292d;
   margin-bottom: 0.25rem;
 }
@@ -212,6 +214,13 @@ nav h1 {
 }
 */
 
+/* Tablet Device */
+/* @media all and (min-width: 768px) and (max-width: 1200px) {
+  .main h1 {
+    font-size: 2.25rem;
+  }
+} */
+
 /*Custom Grid System - Fix container width */
 @media screen and (min-width: 1200px) {
   .container {
@@ -224,7 +233,7 @@ nav h1 {
   }
   .header-line {
     padding: 1.5rem 2rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0;
   }
 
   .non-show-btn {
@@ -236,7 +245,7 @@ nav h1 {
     display: flex;
     flex-wrap: nowarp;
     align-items: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0;
   }
 
   .main-title {
@@ -244,11 +253,11 @@ nav h1 {
   }
 
   .main h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .main p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   /* category---------------------------------------------- */
